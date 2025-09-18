@@ -1,0 +1,123 @@
+# Ignore training data, videos, and unnecessary folders/files
+*.pyd
+*.yml
+*.yml.*
+*.dll
+*.exe
+*.log
+*.mp4
+*.avi
+*.mkv
+*.zip
+*.tar.gz
+*.7z
+
+# Ignore folders that hold data
+__pycache__/
+venv/
+env/
+*.egg-info/
+*.db
+*.sqlite3
+TrainingImage/
+TrainingImageLabel/
+TestImage/
+videos/
+static/videos/
+media/
+uploads/
+umer/
+Lib/
+
+media/
+CandidateAffidavit/
+CandidateImage/
+ECadminImage/
+PartyImage
+media/
+*.jpg
+*.jpeg
+*.mp4
+*.png
+
+# Ignore media folders (PartyImage, VoterImage etc.)
+media/
+
+# Ignore training labels and large trainer file
+TrainingImageLabel/Trainner.yml
+
+# Ignore common image/video formats
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Ignore Python cache and virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
+ENV/
+*.env
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+umer/
+umer-copy/
+umer-venv/
+TrainingImage/
+assets/
+VotingDSVideo/
+# Ignore Python cache/compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+umer/
+Lib/
+Scripts/
+
+# IDE
+.vscode/
+.idea/
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+umer/Lib/
+umer/Scripts/
+venv/
+env/
+
+# Ignore build and system files
+*.log
+*.sqlite3
+*.db
+.DS_Store
+home/
